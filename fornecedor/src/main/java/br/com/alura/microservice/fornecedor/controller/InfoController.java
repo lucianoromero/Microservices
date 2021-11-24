@@ -19,5 +19,4 @@ public class InfoController {
 	public InfoFornecedor getInfoPorEstado(@PathVariable String estado) {
 		return infoService.getInfoPorEstado(estado);
 	}
-
 }

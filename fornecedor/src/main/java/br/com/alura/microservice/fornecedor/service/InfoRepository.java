@@ -7,7 +7,6 @@ import br.com.alura.microservice.fornecedor.model.InfoFornecedor;
 
 @Repository
 public interface InfoRepository extends CrudRepository<InfoFornecedor, Long>{
-	
-	
+
 	InfoFornecedor findByEstado(String estado);
 }

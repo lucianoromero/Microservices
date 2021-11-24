@@ -1,5 +1,5 @@
 
-spring:  application:    name: 'loja'
+spring:  application:    name: loja
 
 eureka:  client:    register-with-eureka: true
     fetch-registry: true
